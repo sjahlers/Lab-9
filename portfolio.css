@@ -1,0 +1,154 @@
+@font-face {
+	font-family: 'FiraSans-Light';
+	src: url('fonts/FiraSans-Light.otf');
+}
+
+@font-face {
+	font-family: 'FiraSans-Regular';
+	src: url('fonts/FiraSans-Regular.otf');
+}
+
+@font-face {
+	font-family: 'FiraSans-SemiBold';
+	src: url('fonts/FiraSans-SemiBold.otf');
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: white;
+}
+
+/* #title {
+	width: 42%;
+	margin: auto;
+	background-color: white;
+} */
+
+header h1, header h2 {
+    display: inline;
+    margin: 20px;
+}
+
+header a {
+	text-decoration: none;
+	color: rgb(164, 198, 42);
+}
+
+body {
+	font-family: FiraSans-Light, Arial, sans-serif;
+	background: url('images/damask.jpg');
+	margin: 30px;
+	position: relative;
+	top: 120px;
+}
+
+h1, h2 {
+	font-family: 'Bad Script', cursive, serif;
+	color: rgb(47, 158, 74);
+}
+
+h3 {
+	font-family: 'Bad Script', cursive, serif;
+	font-size: 1.25em;
+	color: rgb(30, 122, 78); 
+}
+
+.white {
+	background-color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	width: 90%;
+	
+}
+
+.center {
+	text-align: center;
+}
+
+	/*Navigation Bar*/
+	
+	nav {
+		text-align: left;
+		background-color: rgb(30, 122, 78); 
+	}
+
+	nav li {
+		font-family: 'Bad Script', cursive, serif;
+		font-size: 25px;
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		padding: 5px 16px;
+		width: 200px;
+		height: 60px;
+	}
+	
+	
+.icons {
+	width: 50px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.page-heading h2 {
+	display: inline;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+/*Home Page*/
+
+#cover {
+	width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#cover a {
+	text-decoration: none;
+	color: black;
+}
+
+#cover h2 {
+	display: inline;
+	vertical-align: middle;
+	margin-left: 5px;
+	position: relative;
+    left: -20px;
+}
+
+.cover-box .icons {
+	width: 50px;
+	display: inline;
+	vertical-align: middle;
+	position: relative;
+    left: -25px;
+}
+
+.cover-box{
+	width: 30%;
+    margin: 20px;
+    display: inline-block;
+}
+
+.cover-box img {
+	max-width: 80%;
+	margin: 10px auto 0px auto;
+	display: block;
+	text-align: center;
+}
+
